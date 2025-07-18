@@ -45,6 +45,9 @@ tkinter-playground/
 │   ├── utility-functions/
 │   └── troubleshooting/
 ├── resources/
+│   ├── master-resource-list.md
+│   ├── learning-path-resources.md
+│   ├── community-contributions.md
 │   ├── style-guides/
 │   ├── best-practices/
 │   └── external-links/
@@ -160,17 +163,45 @@ Each phase includes practical assessments:
 
 ## 📚 Resources & References
 
+> **Note**: This is a curated collection of resources discovered and validated throughout the learning journey. All resources are categorized by type and difficulty level.
+
+### 🔗 Quick Access
+- **[Master Resource List](resources/master-resource-list.md)** - Comprehensive categorized list
+- **[Learning Path Resources](resources/learning-path-resources.md)** - Resources organized by mastery phases
+- **[Community Contributions](resources/community-contributions.md)** - Resources shared by learners
+
 ### Official Documentation
 - [Python Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
 - [Tkinter ttk Module](https://docs.python.org/3/library/tkinter.ttk.html)
 
-### Recommended Reading
+### Books & eBooks
 - "Python GUI Programming with Tkinter" by Alan D. Moore
 - "Tkinter GUI Application Development" by Bhaskar Chaudhary
+
+### Video Courses & Tutorials
+- YouTube playlists and channels (documented in resources/)
+- Udemy courses (with learner reviews)
+- Free online tutorials and walkthroughs
+
+### Blogs & Articles
+- Technical deep-dives and tutorials
+- Best practices and patterns
+- Real-world implementation guides
+
+### Code Examples & Gists
+- Useful code snippets and utilities
+- Problem-solving examples
+- Community-shared solutions
 
 ### Community Resources
 - [Tkinter discussions on Reddit](https://www.reddit.com/r/tkinter/)
 - [Stack Overflow Tkinter questions](https://stackoverflow.com/questions/tagged/tkinter)
+- Forums and Discord channels
+
+### Tools & Utilities
+- GUI builders and design tools
+- Testing and debugging utilities
+- Packaging and deployment tools
 
 ## 🤝 Contributing
 
@@ -226,3 +257,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Python Software Foundation for Tkinter
 - Contributors to the Python GUI development community
 - Everyone who shares their Tkinter knowledge and examples
+
+---
+
+**Ready to get your hands dirty with Tkinter?** Start with `challenges/01-foundations/basic-widgets/README.md` and begin your journey to GUI mastery!
