@@ -9,7 +9,7 @@ This is a comprehensive catalog of all resources discovered throughout the Tkint
 <!-- Add video content here -->
 
 ## 📝 Blogs & Articles
-<!-- Add written content here -->
+1. https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/index.html
 
 ## 💾 Code Examples & Gists
 <!-- Add code snippets and examples here -->
