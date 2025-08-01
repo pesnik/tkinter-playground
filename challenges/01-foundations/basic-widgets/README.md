@@ -4,9 +4,9 @@
 Master the fundamental Tkinter widgets and their basic usage.
 
 ## 📋 Requirements
-- [ ] Create a window with Label, Button, Entry, Text widgets
-- [ ] Implement basic widget properties (text, color, size)
-- [ ] Add simple interactivity (button clicks, text input)
+- [x] Create a window with Label, Button, Entry, Text widgets
+- [x] Implement basic widget properties (text, color, size)
+- [x] Add simple interactivity (button clicks, text input)
 
 ## 🚀 Getting Started
 1. Create `hello_world.py` with a basic window

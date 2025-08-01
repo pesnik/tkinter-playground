@@ -1,50 +1,32 @@
-"""
-Hello World Tkinter Application
-===============================
-
-Your first Tkinter application - a simple window with a label and button.
-
-Challenge: Run this code and understand each component.
-Then modify it to add your own widgets!
-"""
-
 import tkinter as tk
-from tkinter import messagebox
 
+# Window setup
+root = tk.Tk()
+root.title('Hello World App')
+root.geometry('1200x800')
 
-def on_button_click():
-    """Handle button click event"""
-    messagebox.showinfo("Hello!", "Welcome to Tkinter Playground!")
+# utilities
+def submit():
+  print(f"Submitted {username.get()}")
 
+# Widgets
+## Label
+label = tk.Label(master=root, text='Hello World')
+## Entry
+username = tk.Entry(master=root)
+username.insert(0, 'Enter your text here')
+## Button
+clicker_button = tk.Button(master=root, text='Click me', command=lambda: print("Button Clicked"))
+submitter_button = tk.Button(master=root, text='Submt', command=submit)
+# Text widget
+descriptor = tk.Text(master=root)
 
-def main():
-    # Create the main window
-    root = tk.Tk()
-    root.title("Hello Tkinter!")
-    root.geometry("300x200")
-    
-    # Create a label
-    label = tk.Label(
-        root, 
-        text="Welcome to Tkinter Playground!",
-        font=("Arial", 14),
-        fg="blue"
-    )
-    label.pack(pady=20)
-    
-    # Create a button
-    button = tk.Button(
-        root,
-        text="Click Me!",
-        command=on_button_click,
-        bg="lightblue",
-        font=("Arial", 12)
-    )
-    button.pack(pady=10)
-    
-    # Start the GUI event loop
-    root.mainloop()
+# Layout management
+label.pack()
+username.pack()
+clicker_button.pack(pady=10)
+submitter_button.pack(padx=10, side=tk.LEFT)
+descriptor.pack(side=tk.LEFT)
 
-
-if __name__ == "__main__":
-    main()
+# Main loop
+root.mainloop()
